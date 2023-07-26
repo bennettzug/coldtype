@@ -88,7 +88,7 @@ if(my_os == 'Darwin'):
 elif(my_os == 'Windows'):
     ALL_FONT_DIRS += WINDOWS_FONT_DIRS
 else:
-    raise Exception("Audio file does not exist")
+    raise Exception("Non mac or windows OS, not supported for now!")
 
 FONT_FIND_DEPTH = 3
 
